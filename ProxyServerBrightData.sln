@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScrapApp", "WebScrapApp\WebScrapApp.csproj", "{46293AF7-A8A6-4E37-B0CA-6866F90EB3BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScrapBrightData", "WebScrapBrightData\WebScrapBrightData.csproj", "{494DB0D7-EB9D-4E2E-8A53-EAAECA74FA8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46293AF7-A8A6-4E37-B0CA-6866F90EB3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46293AF7-A8A6-4E37-B0CA-6866F90EB3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46293AF7-A8A6-4E37-B0CA-6866F90EB3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46293AF7-A8A6-4E37-B0CA-6866F90EB3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{494DB0D7-EB9D-4E2E-8A53-EAAECA74FA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494DB0D7-EB9D-4E2E-8A53-EAAECA74FA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494DB0D7-EB9D-4E2E-8A53-EAAECA74FA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494DB0D7-EB9D-4E2E-8A53-EAAECA74FA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD2AEB59-5798-42AA-96C9-31C6A445ECB6}
+	EndGlobalSection
+EndGlobal
