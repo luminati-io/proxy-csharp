@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WebScrapeBrightData": {
+      "commandName": "Project",
+      "commandLineArgs": "--url https://www.wikipedia.org/"
+    }
+  }
+}

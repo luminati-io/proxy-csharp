@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScrapApp", "WebScrapApp\WebScrapApp.csproj", "{46293AF7-A8A6-4E37-B0CA-6866F90EB3BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScrapBrightData", "WebScrapBrightData\WebScrapBrightData.csproj", "{494DB0D7-EB9D-4E2E-8A53-EAAECA74FA8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScrapeBrightData", "WebScrapBrightData\WebScrapeBrightData.csproj", "{494DB0D7-EB9D-4E2E-8A53-EAAECA74FA8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
