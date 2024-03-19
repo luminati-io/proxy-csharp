@@ -19,12 +19,10 @@ builder.ConfigureServices((hostContext, services) => {
     services.AddSingleton<IArgumentService, ArgumentService>();
     services.AddHttpClient();
     services.AddHttpClient("ScrapingClient", (serviceProvider, client) => {
-        //var configurationService = serviceProvider.GetRequiredService<IBrightDataConfigurationService>();
-        //var configuration = configurationService.GetConfiguration();
+        // Setup HttpClient to your needs
         client.DefaultRequestHeaders.Add("Accept", "application/json");
-        //client.DefaultRequestHeaders.TryAddWithoutValidation("Proxy-Authorization", Convert.ToBase64String(
-        //    System.Text.Encoding.UTF8.GetBytes($"{configuration.UserName}:{configuration.Password}")));
     }).ConfigurePrimaryHttpMessageHandler((serviceProvider) => {
+        // Proxy configuration
         var configurationService = serviceProvider.GetRequiredService<IBrightDataConfigurationService>();
         var configuration = configurationService.GetConfiguration();
         var proxy = new WebProxy(configuration.Host)
