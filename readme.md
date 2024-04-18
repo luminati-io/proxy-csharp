@@ -1,3 +1,5 @@
+[![Promo](https://brightdata.com/static/github_promo_15.png?md5=105367-daeb786e)](https://brightdata.com/?promo=github15) 
+
 This project demonstrates setting up proxy servers in [C# for web scraping](https://brightdata.com/blog/how-tos/web-scraping-with-c-sharp) with Visual Studio and .NET 7, leveraging HtmlAgilityPack for HTML parsing. Proxies protect your digital identity during web scraping by using their IP address, circumventing IP bans and geoblocking.
 
 ### Prerequisites
