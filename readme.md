@@ -1,7 +1,6 @@
 [![Promo](https://brightdata.com/static/github_promo_15.png?md5=105367-daeb786e)](https://brightdata.com/?promo=github15) 
 
-This project demonstrates setting up proxy servers in [C# for web scraping](https://brightdata.com/blog/how-tos/web-scraping-with-c-sharp) with Visual Studio and .NET 7, leveraging HtmlAgilityPack for HTML parsing. Proxies protect your digital identity during web scraping by using their IP address, circumventing IP bans and geoblocking.
-
+本项目演示了如何在 Visual Studio 和 .NET 7 中使用 C#（参考链接：https://www.bright.cn/blog/how-tos/web-scraping-with-c-sharp）配置代理服务器进行网页抓取，并使用 HtmlAgilityPack 进行 HTML 解析。通过使用代理服务器的 IP 地址，代理可以在网页抓取时保护您的数字身份，从而绕过 IP 封禁和地域限制。
 ### Prerequisites
 -   [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or [Visual Studio Code](https://code.visualstudio.com/)
 -   [.NET 7 or newer](https://dotnet.microsoft.com/en-us/download)
